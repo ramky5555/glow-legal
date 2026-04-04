@@ -164,7 +164,7 @@
 
     <p><strong>Audio</strong></p>
     <p>
-      Glow plays ambient background music during sessions. The volume responds to your smile
+      Smiro plays ambient background music during sessions. The volume responds to your smile
       intensity in real time. No audio is recorded from your device's microphone.
     </p>
 
@@ -184,7 +184,9 @@
       purposes. Data is processed by the following infrastructure providers solely to operate Smiro:
     </p>
     <ul>
-      <li><strong>Amazon Web Services (AWS)</strong> — authentication (Cognito) and session data storage (DynamoDB / AppSync).</li>
+      <li><strong>Amazon Web Services (AWS)</strong> — authentication (Cognito) and session data storage (DynamoDB).</li>
+      <li><strong>Google Firebase (Firestore)</strong> — stores feedback messages you voluntarily submit through the app.</li>
+      <li><strong>Google Sign-In</strong> — if you choose to sign in with Google, your Google account email and identity are shared with Google as part of the authentication flow.</li>
       <li><strong>Google MLKit</strong> — on-device face detection library (Android). No data is sent to Google.</li>
       <li><strong>Apple Vision</strong> — on-device face detection framework (iOS). No data is sent to Apple.</li>
     </ul>
@@ -223,6 +225,16 @@
       <li>Request deletion of your data (available directly in the app).</li>
       <li>Object to or restrict certain processing.</li>
     </ul>
+    <p>
+      If you are located in the European Economic Area (EEA), you have rights under the
+      General Data Protection Regulation (GDPR), including the right to data portability
+      and to lodge a complaint with your local supervisory authority.
+    </p>
+    <p>
+      If you are a California resident, you have rights under the California Consumer
+      Privacy Act (CCPA), including the right to know what personal information is collected,
+      the right to delete it, and the right to opt out of its sale (we do not sell personal data).
+    </p>
     <p>To exercise any of these rights, contact us at the address below.</p>
 
     <!-- 8 -->
